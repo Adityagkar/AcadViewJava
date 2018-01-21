@@ -30,9 +30,9 @@ public class Class4_WaveArray_AdityaGkar {
         }
         
         i=0;
-        // for ascending order array
         
-
+        
+// this loop will sort the given array in ascending order.
                  for(i=1;i<10;i++)
                  {
                     int ele=arr[i];
@@ -47,6 +47,7 @@ public class Class4_WaveArray_AdityaGkar {
                      arr[j+1]=ele;
                  }
 
+ // this loop will read two elements at a time and would swap them
                  int temp=0;
    
                  for(i=0;i<7;i=i+2)
@@ -56,7 +57,7 @@ public class Class4_WaveArray_AdityaGkar {
                      arr[i]=temp;
                  }
         
-        
+  //for printing wave array      
       for(i=0;i<10;i++)
                  {
                     System.out.print(" "+arr[i]);
