@@ -24,17 +24,14 @@ public class Class4_Secondlargest_AdityaGkar {
              max_index=i;
             
             if(i==9)
-            {
+            {// this will shift the largest element to arr[0]
                temp= arr[max_index];
                arr[max_index]=arr[0];
                arr[0]=temp;
-             }
-            
-            
-            
+             
             
         }
-        
+        //now search largest element from arr[ 1 to 9] this will give second largest as arr[0] is the largest(first)
         max_index=1;
         for(i=1;i<10;i++)
         {
